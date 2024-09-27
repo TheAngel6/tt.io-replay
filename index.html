@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Replay Emulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="theme-toggle">
+        <button id="darkModeToggle">☀️</button> <!-- Sun emoji for light mode -->
+    </div>
+    <div class="container">
+        <header>
+            <h1>Replay Emulator</h1>
+            <p>Enter a replay URL to view the corresponding version:</p>
+        </header>
+        
+        
+        <!-- Dark Mode Toggle Button -->
+        
+        <main>
+            <form id="urlForm">
+                <input type="text" id="urlInput" placeholder="Enter your URL here" required>
+                <button type="submit">Submit</button>
+            </form>
+
+            <!-- A place to show errors or feedback -->
+            <div id="error" class="error"></div>
+
+            <div id="output"></div>
+            
+            <!-- Fullscreen button to open in a new tab -->
+            <div id="fullscreenContainer">
+                <button id="openNewTabBtn" style="display: none;">Open in New Tab</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Replay Emulator. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script defer src="app.js"></script>
+</body>
+</html>
