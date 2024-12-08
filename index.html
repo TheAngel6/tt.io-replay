@@ -7,17 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="theme-toggle">
-        <button id="darkModeToggle">☀️</button> <!-- Sun emoji for light mode -->
-    </div>
     <div class="container">
         <header>
             <h1>Replay Emulator</h1>
             <p>Enter a replay URL to view the corresponding version:</p>
         </header>
-        
-        
-        
+
         <main>
             <form id="urlForm">
                 <input type="text" id="urlInput" placeholder="Enter your URL here" required>
@@ -26,20 +21,45 @@
 
             <!-- A place to show errors or feedback -->
             <div id="error" class="error"></div>
-
-            <div id="output"></div>
-            
-            <div id="fullscreenContainer">
-                <button id="openNewTabBtn" style="display: none;">Open in New Tab</button>
-            </div>
         </main>
+
+        <!-- Sponsor section -->
+        <section id="sponsorSection">
+            <h2>Sponsor</h2>
+            <div id="sponsors">
+                <!-- Example sponsored content -->
+                <div class="sponsor">
+                    <h3>Barti</h3>
+                    <img src="pit\image1.png" alt="Clan Logo" class="sponsor-logo">
+                    <a href="https://discord.gg/GGT7jPJw7c" target="_blank">
+                        <button>Join here!</button>
+                    </a>
+                </div>
+                <div class="sponsor">
+                    <h3>Clan</h3>
+                    <img src="pit\image3.png" alt="Clan Logo" class="sponsor-logo">
+                    <a href="https://discord.gg/example2" target="_blank">
+                        <button>Join here!</button>
+                    </a>
+                </div>
+                <div class="sponsor">
+                    <h3>Clan</h3>
+                    <img src="pit\image3.png" alt="Clan Logo" class="sponsor-logo">
+                    <a href="https://discord.gg/example3" target="_blank">
+                        <button>Join here!</button>
+                    </a>
+                </div>
+            </div>
+            <p>Advertise your Discord server here! Contact theangel2 to buy a spot!</p>
+        </section>
 
         <footer>
             <p>&copy; 2024 Replay Emulator. All rights reserved.</p>
-            <p>Credit: TheAngel and HunterJrX</p>
+            <p>Credit: theangel2, hunterjrx & biggkiwi</p>
         </footer>
     </div>
 
+    <button id="darkModeToggle" class="dark-mode-toggle">☀️</button>
     <script defer src="app.js"></script>
 </body>
 </html>
