@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    max-width: 1000px; /* Increased width to fit all sponsors */
+    max-width: 1000px; 
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
@@ -100,7 +100,7 @@ body.dark-mode footer {
 #sponsors {
     display: flex;
     justify-content: space-between;
-    gap: 20px; /* Adjusted for spacing between sponsors */
+    gap: 20px; 
     margin-top: 20px;
 }
 
@@ -111,9 +111,9 @@ body.dark-mode footer {
     text-align: center;
     border: 1px solid #333;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    flex: 1 1 calc(33.33% - 20px); /* Ensures three items per row */
+    flex: 1 1 calc(33.33% - 20px);
     box-sizing: border-box;
-    margin-bottom: 0; /* Removed extra vertical spacing */
+    margin-bottom: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -174,21 +174,21 @@ footer {
 
 @media (max-width: 768px) {
     .container {
-        max-width: 100%; /* Adjust for smaller screens */
+        max-width: 100%;
     }
 
     #sponsors {
-        flex-wrap: wrap; /* Allow wrapping on smaller screens */
+        flex-wrap: wrap;
     }
 
     .sponsor {
-        flex: 1 1 calc(50% - 20px); /* Two items per row */
+        flex: 1 1 calc(50% - 20px); 
     }
 }
 
 @media (max-width: 480px) {
     .sponsor {
-        flex: 1 1 100%; /* One item per row */
+        flex: 1 1 100%; 
     }
 }
 
