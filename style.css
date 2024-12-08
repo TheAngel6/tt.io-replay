@@ -1,22 +1,24 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff00;
-    color: #ffffff;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    transition: background-color 1s, color 1s;
 }
 
 .container {
-    max-width: 800px;
-    margin: 50px auto;
+    max-width: 1000px; /* Increased width to fit all sponsors */
+    margin: 0 auto;
     padding: 20px;
-    background: #50505000;
-    border-radius: 25px;
-    box-shadow: 0 0px 100px rgb(128, 128, 128);
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex-grow: 1; 
+    transition: background-color 1s, color 1s;
 }
 
 header {
@@ -24,96 +26,186 @@ header {
     margin-bottom: 20px;
 }
 
-h1 {
-    font-size: 2rem;
-    color: #7e7e7e;
-}
-
-p {
-    font-size: 1rem;
-    color: #7e7e7e;
-}
-
 form {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
+    gap: 10px;
+    justify-content: center;
 }
 
 input[type="text"] {
-    width: 80%;
+    flex: 1;
     padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #000000;
+    border: 1px solid #ddd;
     border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    transition: background-color 1s, color 1s;
+}
+
+input[type="text"]::placeholder {
+    color: #aaa;
 }
 
 button {
     padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
     border: none;
     border-radius: 4px;
-    background-color: #808080;
-    color: white;
     cursor: pointer;
-    font-size: 1rem;
+    transition: background-color 1s, color 1s;
 }
 
 button:hover {
-    background-color: #606060;
+    background-color: #555;
 }
 
-#error {
-    color: red;
+.error {
+    color: #ff5555;
+    margin-top: 10px;
     text-align: center;
-    margin-bottom: 20px;
+}
+
+#sponsorSection {
+    margin-top: 40px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    color: #333;
+    text-align: center;
+    transition: background-color 1s, color 1s;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode .container {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+body.dark-mode #sponsorSection {
+    background-color: #1e1e1e;
+    color: #ffffff; 
+}
+
+body.dark-mode footer {
+    background-color: #1e1e1e; 
+    color: #ffffff; 
+}
+
+#sponsors {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Adjusted for spacing between sponsors */
+    margin-top: 20px;
+}
+
+.sponsor {
+    background-color: #1e1e1e;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.33% - 20px); /* Ensures three items per row */
+    box-sizing: border-box;
+    margin-bottom: 0; /* Removed extra vertical spacing */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 1s, color 1s;
+}
+
+.sponsor h3 {
+    color: #ffffff; 
+    margin-bottom: 8px;
+    font-size: 1.5rem;
+    transition: color 1s;
+}
+
+.sponsor-logo {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+
+.sponsor button {
+    padding: 8px 16px;
+    background-color: #444; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 1s, color 1s;
+}
+
+.sponsor button:hover {
+    background-color: #555;
+}
+
+.sponsor a {
+    text-decoration: none;
+}
+
+p {
+    color: #7e7e7e;
+    text-align: center;
+    margin-top: 16px;
 }
 
 footer {
     text-align: center;
-    margin-top: 20px;
-    font-size: 0.9rem;
-    color: #000000;
-}
-/* Position the theme toggle button */
-/* Global Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    transition: background-color 1s ease, color 1s ease;
+    margin-top: 16px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ddd;
+    font-size: 0.9em;
+    color: #aaa;
+    margin-bottom: 10px;
+    transition: background-color 1s, color 1s;
 }
 
-/* Light Mode Styles */
-body {
-    background-color: white; /* Light background */
-    color: black; /* Light text color */
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%; /* Adjust for smaller screens */
+    }
+
+    #sponsors {
+        flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    }
+
+    .sponsor {
+        flex: 1 1 calc(50% - 20px); /* Two items per row */
+    }
 }
 
-/* Dark Mode Styles */
-body.dark-mode {
-    background-color: #000000; /* Dark background */
-    color: white; /* Light text color */
+@media (max-width: 480px) {
+    .sponsor {
+        flex: 1 1 100%; /* One item per row */
+    }
 }
 
-/* Theme Toggle Button */
-.theme-toggle {
+.dark-mode-toggle {
     position: fixed;
-    top: 20px; /* Adjust as needed */
-    right: 20px; /* Adjust as needed */
-    z-index: 1000; /* Ensure it's above other elements */
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    font-size: 1.5rem;
+    transition: background-color 1s, color 1s;
 }
 
-#darkModeToggle {
-    background-color: #808080; /* Button color */
-    color: white; /* Button text color */
-    border: none; /* No border */
-    border-radius: 5px; /* Rounded corners */
-    padding: 10px 15px; /* Padding for button */
-    cursor: pointer; /* Pointer on hover */
-    font-size: 24px; /* Font size */
-}
-
-#darkModeToggle:hover {
-    background-color: #606060; /* Darker blue on hover */
+.dark-mode-toggle:hover {
+    background-color: #555;
 }
