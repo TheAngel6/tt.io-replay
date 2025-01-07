@@ -1,1 +1,176 @@
-const _0x3527db=_0x276e;(function(_0x24768e,_0x3a1a6d){const _0x3b6440=_0x276e,_0x1a9b39=_0x24768e();while(!![]){try{const _0x3f45f8=parseInt(_0x3b6440(0x1f2))/0x1+parseInt(_0x3b6440(0x202))/0x2+parseInt(_0x3b6440(0x221))/0x3+parseInt(_0x3b6440(0x21f))/0x4*(-parseInt(_0x3b6440(0x1e9))/0x5)+parseInt(_0x3b6440(0x20c))/0x6*(-parseInt(_0x3b6440(0x215))/0x7)+parseInt(_0x3b6440(0x206))/0x8*(parseInt(_0x3b6440(0x1fb))/0x9)+-parseInt(_0x3b6440(0x1ee))/0xa*(parseInt(_0x3b6440(0x1f0))/0xb);if(_0x3f45f8===_0x3a1a6d)break;else _0x1a9b39['push'](_0x1a9b39['shift']());}catch(_0x1ab948){_0x1a9b39['push'](_0x1a9b39['shift']());}}}(_0xcc33,0x4c3b1),document['getElementById'](_0x3527db(0x212))[_0x3527db(0x1e4)](_0x3527db(0x1fa),function(_0x1caa67){const _0x495473=_0x3527db;_0x1caa67['preventDefault']();const _0x4b4e27=document[_0x495473(0x229)](_0x495473(0x228))[_0x495473(0x203)],_0x1152ce=getVersionFromUrl(_0x4b4e27);_0x1152ce?checkVersionExists(_0x1152ce)?(openInNewTab(_0x1152ce),document['getElementById']('error')[_0x495473(0x22a)]=''):showError(_0x495473(0x201)):showError(_0x495473(0x1e6));}));function _0xcc33(){const _0x45eac6=['forEach','click','clientX','https://discord.gg/yYFH2shcGp','error','length','urlInput','getElementById','innerText','pit/image4.png','emulated_versions/version','match','offsetWidth','addEventListener','floor','Invalid\x20URL\x20or\x20version\x20not\x20found.','tan','add','5AmMbBC','https://discord.gg/pwrgYBwXvK','https://discord.gg/4Z7wSvXr5b','\x22\x20alt=\x22Clan\x20Logo\x22\x20class=\x22sponsor-logo\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22','.sponsor-container','83510wajKLi','send','165uEVDAT','deg)\x20translateZ(','498296HeNmeu','touchend','rotateY(','open','ELITE','pit/image8.png','PLUTO','https://discord.gg/a8Gs9p9XhD','submit','3300966geyyIT','https://discord.gg/FpAewUyUXN','pit/image9.png','https://discord.gg/2EHbzY2eug','style','name','Version\x20is\x20not\x20available!\x20Contact:\x20theangel2','799116aXQpQk','value','_blank','deg)','8YqudcJ','https://discord.gg/kHUDamR5Ut','px)\x20rotateY(','.html','pit/image2.png','querySelector','18KyGUPO','transform','translateZ(','status','changedTouches','touchstart','urlForm','\x22\x20target=\x22_blank\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button>Join\x20here!</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','https://discord.gg/6w6F3Xpadd','1340171GouXCb','classList','DOMContentLoaded','touches','querySelectorAll','div','</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22','px)','https://discord.com/invite/VQNSh2Ks','SWORD','2433372goLSFI','link','1066740nKfgMZ'];_0xcc33=function(){return _0x45eac6;};return _0xcc33();}function getVersionFromUrl(_0x3bd992){const _0x48d05c=_0x3527db,_0x52c26d=/replay=([A-Za-z0-9\-_]{2})/,_0x35c5e1=_0x3bd992[_0x48d05c(0x1e2)](_0x52c26d);return _0x35c5e1?_0x35c5e1[0x1]:null;}function checkVersionExists(_0x2a55e9){const _0x3832d5=_0x3527db,_0x5de16f=new XMLHttpRequest();return _0x5de16f[_0x3832d5(0x1f5)]('HEAD',_0x3832d5(0x1e1)+_0x2a55e9+_0x3832d5(0x209),![]),_0x5de16f[_0x3832d5(0x1ef)](),_0x5de16f[_0x3832d5(0x20f)]!==0x194;}function openInNewTab(_0x1bdfc7){const _0x5437e0=_0x3527db,_0x3d4fb8=_0x5437e0(0x1e1)+_0x1bdfc7+_0x5437e0(0x209);window[_0x5437e0(0x1f5)](_0x3d4fb8,_0x5437e0(0x204));}function showError(_0x509c59){const _0x2722b1=_0x3527db,_0x37ab63=document['getElementById'](_0x2722b1(0x226));_0x37ab63[_0x2722b1(0x22a)]=_0x509c59;}document[_0x3527db(0x1e4)](_0x3527db(0x217),function(){const _0x439f6c=_0x3527db,_0x33fb2f=document[_0x439f6c(0x20b)]('.sponsor-container'),_0x1a951c=document['querySelector'](_0x439f6c(0x1ed)),_0x1516ff=[{'name':'PL','image':'pit/image1.png','link':_0x439f6c(0x1fc)},{'name':'EU','image':'pit/image3.png','link':_0x439f6c(0x214)},{'name':'UA','image':_0x439f6c(0x20a),'link':_0x439f6c(0x1eb)},{'name':'TNH','image':_0x439f6c(0x22b),'link':_0x439f6c(0x207)},{'name':'OG','image':'pit/image5.png','link':_0x439f6c(0x21d)},{'name':'COLD','image':'pit/image6.png','link':_0x439f6c(0x1ea)},{'name':_0x439f6c(0x1f6),'image':'pit/image7.png','link':_0x439f6c(0x225)},{'name':_0x439f6c(0x1f8),'image':_0x439f6c(0x1f7),'link':_0x439f6c(0x1f9)},{'name':_0x439f6c(0x21e),'image':_0x439f6c(0x1fd),'link':_0x439f6c(0x1fe)}];shuffleArray(_0x1516ff),_0x1516ff[_0x439f6c(0x222)](_0x49c9c3=>{const _0x1d8d75=_0x439f6c,_0x7e3391=document['createElement'](_0x1d8d75(0x21a));_0x7e3391[_0x1d8d75(0x216)][_0x1d8d75(0x1e8)]('sponsor'),_0x7e3391['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3>'+_0x49c9c3[_0x1d8d75(0x200)]+_0x1d8d75(0x21b)+_0x49c9c3['image']+_0x1d8d75(0x1ec)+_0x49c9c3[_0x1d8d75(0x220)]+_0x1d8d75(0x213),_0x1a951c['appendChild'](_0x7e3391);});const _0x9b6d74=_0x1516ff[_0x439f6c(0x227)];let _0x338bc1=0x0;const _0x3cdaeb=0x168/_0x9b6d74,_0x39ce44=_0x33fb2f[_0x439f6c(0x1e3)]/0x2/Math[_0x439f6c(0x1e7)](Math['PI']/_0x9b6d74),_0x1f3e7a=document[_0x439f6c(0x219)]('.sponsor');_0x1f3e7a[_0x439f6c(0x222)]((_0x1e8320,_0x5ec057)=>{const _0x3c1d09=_0x439f6c;_0x1e8320[_0x3c1d09(0x1ff)][_0x3c1d09(0x20d)]=_0x3c1d09(0x1f4)+_0x5ec057*_0x3cdaeb+_0x3c1d09(0x1f1)+_0x39ce44+_0x3c1d09(0x21c);}),_0x338bc1=Math[_0x439f6c(0x1e5)](Math['random']()*_0x9b6d74),_0xc11de4();function _0xc11de4(){const _0x44d8a7=_0x439f6c,_0x4777f1=_0x338bc1*_0x3cdaeb;_0x33fb2f['style']['transform']=_0x44d8a7(0x20e)+-_0x39ce44+_0x44d8a7(0x208)+-_0x4777f1+_0x44d8a7(0x205);}function _0x4864e2(){_0x338bc1=(_0x338bc1+0x1)%_0x9b6d74,_0xc11de4();}function _0x11f441(){_0x338bc1=(_0x338bc1-0x1+_0x9b6d74)%_0x9b6d74,_0xc11de4();}let _0xabd12b=0x0,_0x20c12c=0x0;_0x1a951c[_0x439f6c(0x1e4)](_0x439f6c(0x211),_0x313173=>{const _0x52e229=_0x439f6c;_0xabd12b=_0x313173[_0x52e229(0x218)][0x0][_0x52e229(0x224)];},![]),_0x1a951c[_0x439f6c(0x1e4)](_0x439f6c(0x1f3),_0x1dc3fb=>{const _0x566e11=_0x439f6c;_0x20c12c=_0x1dc3fb[_0x566e11(0x210)][0x0]['clientX'],_0x31a3cf();},![]);function _0x31a3cf(){_0x20c12c<_0xabd12b&&_0x4864e2(),_0x20c12c>_0xabd12b&&_0x11f441();}_0x1f3e7a['forEach']((_0x44925a,_0x3b7f19)=>{const _0x2b170d=_0x439f6c;_0x44925a[_0x2b170d(0x1e4)](_0x2b170d(0x223),()=>{_0x338bc1=_0x3b7f19,_0xc11de4();});}),setInterval(_0x4864e2,0x1388);});function _0x276e(_0x5b1343,_0x4a637d){const _0xcc339d=_0xcc33();return _0x276e=function(_0x276e8c,_0x8ed78a){_0x276e8c=_0x276e8c-0x1e1;let _0x355368=_0xcc339d[_0x276e8c];return _0x355368;},_0x276e(_0x5b1343,_0x4a637d);}function shuffleArray(_0x396fe1){const _0x427459=_0x3527db;for(let _0x1fe184=_0x396fe1[_0x427459(0x227)]-0x1;_0x1fe184>0x0;_0x1fe184--){const _0x1938ef=Math[_0x427459(0x1e5)](Math['random']()*(_0x1fe184+0x1));[_0x396fe1[_0x1fe184],_0x396fe1[_0x1938ef]]=[_0x396fe1[_0x1938ef],_0x396fe1[_0x1fe184]];}}
+document.getElementById('urlForm').addEventListener('submit', function (event) {
+    event.preventDefault();
+  
+    const urlInput = document.getElementById('urlInput').value;
+    const version = getVersionFromUrl(urlInput);
+  
+    if (version) {
+        if (checkVersionExists(version)) {
+            openInNewTab(version);
+            document.getElementById('error').innerText = '';
+        } else {
+            showError(`Version is not available! Contact: theangel2`);
+        }
+    } else {
+        showError('Invalid URL or version not found.');
+    }
+  });
+  
+  function getVersionFromUrl(url) {
+    const regex = /replay=([A-Za-z0-9\-_]{2})/;
+    const match = url.match(regex);
+    return match ? match[1] : null;
+  }
+  
+  function checkVersionExists(version) {
+    const xhr = new XMLHttpRequest();
+    xhr.open('HEAD', `emulated_versions/version${version}.html`, false);
+    xhr.send();
+    return xhr.status !== 404;
+  }
+  
+  function openInNewTab(version) {
+    const url = `emulated_versions/version${version}.html`;
+    window.open(url, '_blank');
+  }
+  
+  function showError(message) {
+    const errorDiv = document.getElementById('error');
+    errorDiv.innerText = message;
+  }
+  
+  document.addEventListener('DOMContentLoaded', function () {
+    // Sponsor 
+    const carousel = document.querySelector('.sponsor-container');
+    const sponsorContainer = document.querySelector('.sponsor-container');
+    const sponsors = [
+        {
+            name: "PL",
+            image: "pit/image1.png",
+            link: "https://discord.gg/FpAewUyUXN"
+        },
+        {
+            name: "EU",
+            image: "pit/image3.png",
+            link: "https://discord.gg/6w6F3Xpadd"
+        },
+        {
+            name: "UA",
+            image: "pit/image2.png",
+            link: "https://discord.gg/4Z7wSvXr5b"
+        },
+        {
+            name: "TNH",
+            image: "pit/image4.png",
+            link: "https://discord.gg/kHUDamR5Ut"
+        },
+        {
+            name: "OG",
+            image: "pit/image5.png",
+            link: "https://discord.com/invite/VQNSh2Ks"
+        },
+        {
+            name: "COLD",
+            image: "pit/image6.png",
+            link: "https://discord.gg/pwrgYBwXvK"
+        },
+        {
+            name: "ELITE",
+            image: "pit/image7.png",
+            link: "https://discord.gg/yYFH2shcGp"
+        },
+        {
+            name: "PLUTO",
+            image: "pit/image8.png",
+            link: "https://discord.gg/a8Gs9p9XhD"
+        },
+        {
+            name: "SWORD",
+            image: "pit/image9.png",
+            link: "https://discord.gg/2EHbzY2eug"
+        },
+    ];
+  
+    // Shuffle sponsors random
+    shuffleArray(sponsors);
+  
+    sponsors.forEach(sponsor => {
+        const sponsorDiv = document.createElement('div');
+        sponsorDiv.classList.add('sponsor');
+        sponsorDiv.innerHTML = `
+            <h3>${sponsor.name}</h3>
+            <img src="${sponsor.image}" alt="Clan Logo" class="sponsor-logo">
+            <a href="${sponsor.link}" target="_blank">
+                <button>Join here!</button>
+            </a>
+        `;
+        sponsorContainer.appendChild(sponsorDiv);
+    });
+  
+    const totalSponsors = sponsors.length;
+    let currentSponsorIndex = 0;
+    const angle = 360 / totalSponsors;
+    const translateZ = (carousel.offsetWidth / 2) / Math.tan(Math.PI / totalSponsors);
+  
+    const sponsorDivs = document.querySelectorAll('.sponsor');
+    sponsorDivs.forEach((sponsor, index) => {
+        sponsor.style.transform = `rotateY(${index * angle}deg) translateZ(${translateZ}px)`;
+    });
+  
+    // Start random sponsor
+    currentSponsorIndex = Math.floor(Math.random() * totalSponsors);
+    rotateCarousel();
+  
+    function rotateCarousel() {
+        const newAngle = currentSponsorIndex * angle;
+        carousel.style.transform = `translateZ(${-translateZ}px) rotateY(${-newAngle}deg)`;
+    }
+  
+    // Rotate sponsor
+    function nextSponsor() {
+        currentSponsorIndex = (currentSponsorIndex + 1) % totalSponsors;
+        rotateCarousel();
+    }
+  
+    function prevSponsor() {
+        currentSponsorIndex = (currentSponsorIndex - 1 + totalSponsors) % totalSponsors;
+        rotateCarousel();
+    }
+  
+    let touchStartX = 0;
+    let touchEndX = 0;
+  
+    sponsorContainer.addEventListener('touchstart', (event) => {
+        touchStartX = event.touches[0].clientX;
+    }, false);
+  
+    sponsorContainer.addEventListener('touchend', (event) => {
+        touchEndX = event.changedTouches[0].clientX;
+        handleSwipe();
+    }, false);
+  
+    function handleSwipe() {
+        if (touchEndX < touchStartX) {
+            nextSponsor(); 
+        }
+        if (touchEndX > touchStartX) {
+            prevSponsor(); 
+        }
+    }
+  
+    sponsorDivs.forEach((sponsor, index) => {
+        sponsor.addEventListener('click', () => {
+            currentSponsorIndex = index;
+            rotateCarousel();
+        });
+    });
+  
+    setInterval(nextSponsor, 5000); // Change sponsor every 5 seconds
+  });
+  
+  function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+  }
