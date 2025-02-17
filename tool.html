@@ -6,6 +6,7 @@
     <title>Replay Emulator</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="pit/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <video autoplay muted loop id="background-video" poster="pit/background.png">
@@ -19,11 +20,25 @@
 
         <main>
             <form id="urlForm">
-                <input type="text" id="urlInput" placeholder="Paste your replay link here..." required>
-                <button type="submit">Submit</button>
+                <i class="fa fa-clock history-icon" id="historyButton"></i>
+                <div class="input-container">
+                    <input type="text" id="urlInput" placeholder="Paste your replay link here..." required>
+                    <button type="submit"><i class="fas fa-arrow-right submit-icon"></i></button>
+                </div>
             </form>
 
             <div id="error" class="error"></div>
+
+            <div id="historyWindow" class="history-window">
+                <div class="history-header">
+                    <h3>Replay History</h3>
+                    <button id="closeHistoryButton" class="close-button">×</button>
+                </div>
+                <div class="history-content">
+                    <ul id="historyList" class="history-list">
+                    </ul>
+                </div>
+            </div>
         </main>
 
     <section id="sponsorSection">
